@@ -14,3 +14,33 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+---
+## 🏆 Featured Projects
+
+### [🍰 Industrial Bakery Simulation](https://github.com/AloRno/API_Project)
+> *C11 project built from scratch with zero external dependencies.*
+
+This project focuses on resource optimization (Time and space complexity). It simulates a industrial production line, handling order logistics, ingredient expiration dates, and courier scheduling.
+
+* **⚡ Performance:** Implemented **Hash Maps** and **Priority Queues** to achieve **O(N)** time complexity for critical operations.
+* **🧠 Memory Management:** Manual memory handling (`malloc`/`free`) profiled with **Valgrind** to ensure zero memory leaks.
+---
+## 👥 Team Projects & Collaborations
+<!--
+### 1. [Team Project Name](LINK_TO_ORIGINAL_REPO)
+*Brief description (e.g., University group project for Web Engineering).*
+* **My Role:** Backend Contributor.
+* **Contribution:** Designed RESTful APIs for user management and integrated data validation logic.
+* **Tech:** `Java` `Spring Boot` `PostgreSQL`
+
+### 2. [Second Team Project](LINK_TO_ORIGINAL_REPO)
+*Brief description.*
+* **My Role:** Frontend / Data Developer.
+* **Contribution:** Optimized database queries reducing load times by 30% and implemented the UI dashboard.
+* **Tech:** `Python` `Pandas` `React`
+-->
+---
+### 📫 Connect with me
+* 💼 [LinkedIn](*Coming Soon*)
+* 📧 [Email](*Coming Soon*)
