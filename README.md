@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there, I'm Angelo 👋
 
 <!--
 **AloRno/AloRno** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
+### 🎓 MSc Student in Computer Science | BSc in Computer Science
 ---
 ## 🏆 Featured Projects
 
@@ -41,6 +41,6 @@ This project focuses on resource optimization (Time and space complexity). It si
 * **Tech:** `Python` `Pandas` `React`
 -->
 ---
-### 📫 Connect with me
+### 📫 How to reach me:
 * 💼 [LinkedIn](*Coming Soon*)
 * 📧 [Email](*Coming Soon*)
