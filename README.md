@@ -28,7 +28,13 @@ This project focuses on resource optimization (Time and space complexity). It si
 ---
 ## 👥 Team Projects & Collaborations
 <!--
-### 1. [Team Project Name](LINK_TO_ORIGINAL_REPO)
+### 1. [BBP - Best Bike Paths](LINK_TO_YOUR_REPO)
+*Software Engineering 2 group project designed to support sustainable mobility through safe routing and crowd-sourcing.*
+* **My Role:** Architect & Modeler.
+* **Contribution:** Led the Formal Modeling phase (Alloy 6). Co-designed the Deployment Architecture and core design patterns. Defined the strategy for system Implementation and Testing.
+* **Tech:** `Alloy 6` `UML` `LaTeX` `Draw.io` `PlantUML` `Git` `GitHub`
+
+### 1. [BBP](LINK_TO_ORIGINAL_REPO)
 *Brief description (e.g., University group project for Web Engineering).*
 * **My Role:** Backend Contributor.
 * **Contribution:** Designed RESTful APIs for user management and integrated data validation logic.
