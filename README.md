@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 
 This project focuses on resource optimization (Time and space complexity). It simulates a industrial production line, handling order logistics, ingredient expiration dates, and courier scheduling.
 
-* **⚡ Performance:** Implemented **Hash Maps** and **Priority Queues** to achieve **O(N)** time complexity for critical operations.
+* **⚡ Performance:** Implemented **Hash Maps** and **Priority Queues** to achieve **O(n)** time complexity for critical operations.
 * **🧠 Memory Management:** Manual memory handling (`malloc`/`free`) profiled with **Valgrind** to ensure zero memory leaks.
 ---
 ## 👥 Team Projects & Collaborations
@@ -49,4 +49,4 @@ This project focuses on resource optimization (Time and space complexity). It si
 ---
 ### 📫 How to reach me:
 * 💼 [LinkedIn](*Coming Soon*)
-* 📧 [Email](*wa37k8qae@mozmail.com*)
+* 📧 Email - *wa37k8qae@mozmail.com*
