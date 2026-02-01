@@ -49,4 +49,4 @@ This project focuses on resource optimization (Time and space complexity). It si
 ---
 ### 📫 How to reach me:
 * 💼 [LinkedIn](*Coming Soon*)
-* 📧 [Email](*Coming Soon*)
+* 📧 [Email](*wa37k8qae@mozmail.com*)
