@@ -61,6 +61,5 @@ This project focuses on resource optimization (Time and space complexity). It si
 * **Tech:** `Python` `Pandas` `React`
 -->
 ---
-### 📫 How to reach me:
-* 💼 [LinkedIn](*Coming Soon*)
-* 📧 Email - *8bqh7b7dh@mozmail.com*
+<!--### 📫 How to reach me:-->
+
