@@ -1,65 +1,63 @@
-## Hi there, I'm Angelo 👋
+# Hi there, I'm Angelo 👋
 
-<!--
-**AloRno/AloRno** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 **M.Sc. Student in Computer Science & Engineering (Cybersecurity)** @ *Politecnico di Milano*  
+🌍 **Exchange Student (ITEE Faculty)** @ *University of Oulu, Finland*  
+🎓 **B.Sc. in Computer Engineering** @ *Politecnico di Milano*
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-### 🎓 MSc Student in Computer Science | BSc in Computer Science
 ---
-## 🏆 Featured Projects
 
-### [🍰 Industrial Bakery Simulation](https://github.com/AloRno/API_Project)
-> *C11 project built from scratch with zero external dependencies.*
+## 🛠️ Technical Projects
 
-This project focuses on resource optimization (Time and space complexity). It simulates a industrial production line, handling order logistics, ingredient expiration dates, and courier scheduling.
+### 🛡️ [SDMO — Legacy System Modernization for Post-Quantum Cryptography](https://github.com/AloRno/SDMO)
+*Course Project for Software Development, Maintenance & Operations — **University of Oulu** (2026)*
 
-* **⚡ Performance:** Implemented **Hash Maps** and **Priority Queues** to achieve **O(n)** time complexity for critical operations.
-* **🧠 Memory Management:** Manual memory handling (`malloc`/`free`) profiled with **Valgrind** to ensure zero memory leaks.
+Modernization of a legacy edge-cloud IoT telemetry system to withstand quantum computing threats through **AI-assisted software engineering** and critical evaluation of LLM-generated artifacts.
+
+* **Architecture & PQC Integration:** Conceived the baseline edge-cloud system and migrated transport security from classical Diffie-Hellman to a **Hybrid DH + ML-KEM-768** key encapsulation mechanism with **AES-256-GCM**, preserving backward compatibility with legacy AES-CBC edge sensors.
+* **AI Evaluation & Technical Documentation:** Treated LLM outputs as untrusted sources—critically reviewing, testing, and adapting generated code and operational configurations (`Docker Compose`, `Prometheus`, `GitHub Actions CI/CD`, `Pytest`). Authored comprehensive **Architectural & Technical Documentation** and a formal **Cryptography & Mathematics Report** detailing migration strategies, accepted/rejected AI artifacts, and residual security risks.
+* **Tech:** `Python` `Post-Quantum Cryptography (ML-KEM-768)` `Docker` `Pytest` `CI/CD` `Technical Documentation`
+
 ---
-## 👥 Team Projects & Collaborations
-### [🚀 Galaxy Trucker — Multiplayer Board Game Engine](https://github.com/AloRno/ing-sw-2025-Poma-Rubino-Zribi-Velicanin) 🔒
-* 🔒 Private repo — university policy prevents publishing the assignment spec and bundled third-party rulebook. Happy to share access on request: *8bqh7b7dh@mozmail.com*
 
-*Final project ("Prova Finale") for Software Engineering — a full client/server implementation of the board game, with TUI, JavaFX GUI, RMI & Socket networking, and game-state persistence, built with 3 teammates.*
+### 🚲 [BBP — Best Bike Paths](https://github.com/ilevinci/RubinoUvinsiVinciguerra)
+*Final Project for Software Engineering 2 — **Politecnico di Milano** (2026)*
+
+Complete requirements engineering and architectural design project for a sustainable urban mobility platform supporting safe bike-route planning, obstacle reporting, and crowd-sourced road quality ratings (developed in a 3-person team with [Ilenia Vinciguerra](https://github.com/ilevinci) and [Eleonora Uvinsi](https://github.com/eleonorauvii)).
+
+* **My Role:** Architect & Formal Modeler.
+* **Contribution:** Co-authored the **Requirements Analysis & Specification Document (RASD)** and **Design Document (DD)**; led the formal verification and modeling phase in **Alloy 6** to prove system constraints and state invariants, co-designed the system deployment architecture and core design patterns (**UML**), and defined the implementation and integration testing strategy.
+* **Tech:** `Alloy 6` `UML` `PlantUML` `Draw.io` `Software Architecture` `LaTeX` `Git`
+
+---
+
+### 🚀 Galaxy Trucker — Distributed Multiplayer Board Game Engine 🔒
+*Final Project ("Prova Finale") for Software Engineering — **Politecnico di Milano** (2025)*  
+*(🔒 Private repository — university policy restricts publishing the official assignment specification and bundled third-party rulebook; access available upon request).*
+
+Full client/server implementation of the *Galaxy Trucker* board game featuring a TUI, JavaFX GUI, concurrent **Java RMI & TCP Socket** networking, and game-state persistence, developed in a 4-person team following strict **Model-View-Controller (MVC)** design patterns.
+
 * **My Role:** Test Engineer & GUI Developer.
-* **Contribution:** Authored part of the project's JUnit test suite: the shipboard tile model, danger-penalty resolution, and controller state transitions, surfacing edge cases in the adventure-card engine before integration. Built out major sections of the JavaFX client (building, fixing, flighting, and planet views).
-* **Tech:** `Java` `JavaFX` `RMI` `Socket/TCP` `MVC` `JUnit`
+* **Contribution:** Authored a core section of the project's **JUnit** test suite covering the shipboard tile model, danger-penalty resolution, and controller state transitions—surfacing edge cases in the adventure-card engine prior to integration. Built major views of the **JavaFX** client (ship building, fixing, flight phase, and planet exploration).
+* **Tech:** `Java` `JavaFX` `Java RMI` `TCP Sockets` `MVC` `JUnit` `UML` `Git`
 
-### [🔌 Differential Filter (VHDL)](https://github.com/AloRno/Differential-Filter-VHDL)
-*Final project ("Prova Finale") for Logic Networks — a memory-mapped FSMD hardware module in VHDL, developed in pairs with [Mirco Poma](https://github.com/MircoPoma).*
+---
+
+### 🍰 [Industrial Bakery Simulation — API Project](https://github.com/AloRno/API_Project)
+*Final Project ("Prova Finale") for Algorithms and Principles of Computer Science — **Politecnico di Milano** (2024)*
+
+High-performance in-memory simulation built from scratch in **C11** with zero external dependencies, focused on strict time and space complexity optimization. It models an industrial production line handling recipe management, ingredient batch expiration dates, order queuing, and courier loading schedules.
+
+* **⚡ Performance & Data Structures:** Implemented custom **Hash Maps** (with polynomial rolling hash and doubly linked lists) and expiration-ordered **Priority Queues** to achieve optimal **$O(n)$** time complexity across critical operations, paired with a custom byte-stream parser.
+* **🧠 Memory Management:** Manual memory allocation (`malloc`/`free`) profiled with **Valgrind** to prevent memory fragmentation and ensure zero memory leaks.
+* **Tech:** `C11` `Algorithms & Data Structures` `Manual Memory Management` `Valgrind` `GDB`
+
+---
+
+### 🔌 [Differential Filter — Memory-Mapped Hardware Module](https://github.com/AloRno/Differential-Filter-VHDL)
+*Final Project ("Prova Finale") for Logic Networks (Reti Logiche) — **Politecnico di Milano** (2024)*
+
+Synchronous memory-mapped **Finite-State Machine with Datapath (FSMD)** hardware component in **VHDL** that reads signed 8-bit sample streams from RAM, applies an order-3 or order-5 differential filter, and writes saturated results back to memory (developed in pairs with [Mirco Poma](https://github.com/MircoPoma)).
+
 * **My Role:** Co-Designer & Co-Developer.
-* **Contribution:** Designed the 11-state FSM + datapath architecture, implemented the shift-based fixed-point normalization with sign-aware rounding for the filter math, and validated the design in simulation against the official course testbench.
-* **Tech:** `VHDL` `Xilinx Vivado` `Digital Logic` `FSM Design`
----
-<!--
-### 1. [BBP - Best Bike Paths](LINK_TO_YOUR_REPO)
-*Software Engineering 2 group project designed to support sustainable mobility through safe routing and crowd-sourcing.*
-* **My Role:** Architect & Modeler.
-* **Contribution:** Led the Formal Modeling phase (Alloy 6). Co-designed the Deployment Architecture and core design patterns. Defined the strategy for system Implementation and Testing.
-* **Tech:** `Alloy 6` `UML` `LaTeX` `Draw.io` `PlantUML` `Git` `GitHub`
-
-### 1. [BBP](LINK_TO_ORIGINAL_REPO)
-*Brief description (e.g., University group project for Web Engineering).*
-* **My Role:** Backend Contributor.
-* **Contribution:** Designed RESTful APIs for user management and integrated data validation logic.
-* **Tech:** `Java` `Spring Boot` `PostgreSQL`
-
-### 2. [Second Team Project](LINK_TO_ORIGINAL_REPO)
-*Brief description.*
-* **My Role:** Frontend / Data Developer.
-* **Contribution:** Optimized database queries reducing load times by 30% and implemented the UI dashboard.
-* **Tech:** `Python` `Pandas` `React`
--->
----
-<!--### 📫 How to reach me:-->
-
+* **Contribution:** Designed the 11-state Moore FSM and datapath architecture, implemented divider-free fixed-point normalization ($1/12$ and $1/60$) using shift-add arithmetic with sign-aware rounding correction and saturation clamping, and validated the design in simulation against the course testbench.
+* **Tech:** `VHDL` `Xilinx Vivado` `Digital Logic` `FSMD Design`
